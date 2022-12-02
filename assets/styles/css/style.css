@@ -1,19 +1,35 @@
 body {
   display: grid;
-  grid-tempalte-columns: repeat(3, 1fr);
-  height: 80vh;
+  grid-template-row: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  height: 80vw;
   width: 100vw;
   margin: 0;
 }
 body header {
-  height: vh;
+  height: 10vh;
   width: 100vw;
   text-align: center;
   background: #5c4d7d;
 }
-body header main {
-  height: 180vh;
-  background-color: red;
+body main {
+  grid-template-row: repeat(2, 1fr);
+  grid-template-columns: repeat 2, 1fr;
+  display: grid;
+  width: 60vw;
+  height: 60vh;
+}
+body main h2 {
+  display: grid;
+  grid-row: 1/4;
+  text-align: center;
+}
+body main h2 section {
+  display: grid;
+}
+body main h2 section article {
+  display: grid;
+  grid-column: 1/2;
 }
 
 /*# sourceMappingURL=style.css.map */
