@@ -1,3 +1,19 @@
-
+body {
+  display: grid;
+  grid-tempalte-columns: repeat(3, 1fr);
+  height: 80vh;
+  width: 100vw;
+  margin: 0;
+}
+body header {
+  height: vh;
+  width: 100vw;
+  text-align: center;
+  background: #5c4d7d;
+}
+body header main {
+  height: 180vh;
+  background-color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
